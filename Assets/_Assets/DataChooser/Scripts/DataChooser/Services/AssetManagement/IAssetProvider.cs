@@ -1,4 +1,4 @@
-﻿namespace _Assets.DataChooser.Scripts.DataChooser.Services
+﻿namespace _Assets.DataChooser.Scripts.DataChooser.Services.AssetManagement
 {
     public interface IAssetProvider
     {

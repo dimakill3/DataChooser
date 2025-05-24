@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using _Assets.DataChooser.Scripts.DataChooser.Data.SO;
-using _Assets.DataChooser.Scripts.DataChooser.Services;
+using _Assets.DataChooser.Scripts.DataChooser.Services.AssetManagement;
 using UnityEngine;
 
 namespace _Assets.DataChooser.Scripts.DataChooser.Data.Services.Storage
@@ -22,7 +22,7 @@ namespace _Assets.DataChooser.Scripts.DataChooser.Data.Services.Storage
             var type = typeof(T);
             if (!_cache.TryGetValue(type, out var list))
             {
-                var path = $"Data/{type.Name}/Collection";
+                var path = AssetPaths.GetDataCollectionPath(type.Name);
                 var collection = _assetProvider.Load<DataCollection<T>>(path);
 
                 list = collection.Items.Cast<IData>().ToList();
