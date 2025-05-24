@@ -25,12 +25,12 @@ namespace _Assets.DataChooser.Scripts.DataChooser.Data.Services.Selection
             _current = initial != null && all.Contains(initial) 
                 ? initial 
                 : all.FirstOrDefault();
-            _input.OnPrevious += SelectNext;
-            _input.OnNext += SelectPrevious;
+            _input.OnPrevious += SelectPrevious;
+            _input.OnNext += SelectNext;
         }
 
         public void SelectNext() =>
-            Change(_current = _database.GetNext(_current));
+            Change(_database.GetNext(_current));
         public void SelectPrevious() =>
             Change(_database.GetPrevious(_current));
         
