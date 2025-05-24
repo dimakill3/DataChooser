@@ -2,6 +2,7 @@
 {
     public enum DemoSetup
     {
-        Character = 0
+        Character = 0,
+        Level = 1,
     }
 }

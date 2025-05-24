@@ -1,5 +1,8 @@
 ﻿using _Assets.DataChooser.Demos.CharacterDemo.Scripts.Data;
 using _Assets.DataChooser.Demos.CharacterDemo.Scripts.Services;
+using _Assets.DataChooser.Demos.LevelDemo.Scripts.Data;
+using _Assets.DataChooser.Demos.LevelDemo.Scripts.Services;
+using _Assets.DataChooser.Demos.LevelDemo.Scripts.Services.SceneManagement;
 using _Assets.DataChooser.Demos.Scripts.Assets;
 using _Assets.DataChooser.Demos.Scripts.Enums;
 using _Assets.DataChooser.Demos.Scripts.Services;
@@ -49,6 +52,10 @@ namespace _Assets.DataChooser.Demos.Scripts.EntryPoint
                 case DemoSetup.Character:
                     _selectionService = new SelectionService<CharacterData>(_database, _input);
                     _actionOnChoose = new CharacterActionOnChoose();
+                    break;
+                case DemoSetup.Level:
+                    _selectionService = new SelectionService<LevelData>(_database, _input);
+                    _actionOnChoose = new LevelActionOnChoose(new SceneLoader(_monoService));
                     break;
             }
         }

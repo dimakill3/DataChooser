@@ -1,4 +1,5 @@
 ﻿using _Assets.DataChooser.Demos.CharacterDemo.Scripts.Data;
+using _Assets.DataChooser.Demos.LevelDemo.Scripts.Data;
 using _Assets.DataChooser.Scripts.DataChooser.Data;
 
 namespace _Assets.DataChooser.Demos.Scripts.Utils
@@ -10,6 +11,7 @@ namespace _Assets.DataChooser.Demos.Scripts.Utils
             return data switch
             {
                 CharacterData => "Character",
+                LevelData => "Level",
                 _ => ""
             };
         }
