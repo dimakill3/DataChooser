@@ -2,7 +2,7 @@
 using _Assets.DataChooser.Scripts.DataChooser.Services.AssetManagement;
 using UnityEngine;
 
-namespace _Assets.DataChooser.Demos.CharacterDemo.Scripts.UI.Factory
+namespace _Assets.DataChooser.Demos.Scripts.UI.Factory
 {
     public class UIFactory : IUIFactory
     {

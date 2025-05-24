@@ -1,14 +1,13 @@
 ﻿using System;
 using _Assets.DataChooser.Demos.CharacterDemo.Scripts.Data;
 using _Assets.DataChooser.Scripts.DataChooser.Data;
-using _Assets.DataChooser.Scripts.DataChooser.UI.DataChooser;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace _Assets.DataChooser.Demos.CharacterDemo.Scripts.UI.ChooseWindow
+namespace _Assets.DataChooser.Demos.CharacterDemo.Scripts.UI.ChosenDataView
 {
-    public class CharacterChosenDataView : ChosenDataView
+    public class CharacterChosenDataView : DataChooser.Scripts.DataChooser.UI.DataChooser.ChosenDataView
     {
         private const string NameTemplate = "Name: ";
         private const string LevelTemplate = "Level: ";

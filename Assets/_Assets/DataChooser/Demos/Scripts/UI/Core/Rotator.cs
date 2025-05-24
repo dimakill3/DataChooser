@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace _Assets.DataChooser.Demos.CharacterDemo.Scripts.UI
+namespace _Assets.DataChooser.Demos.Scripts.UI.Core
 {
     public class Rotator : MonoBehaviour
     {

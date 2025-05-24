@@ -1,5 +1,5 @@
-﻿using _Assets.DataChooser.Demos.CharacterDemo.Scripts.Utils;
-using _Assets.DataChooser.Demos.Scripts.Services;
+﻿using _Assets.DataChooser.Demos.Scripts.Services;
+using _Assets.DataChooser.Demos.Scripts.Utils;
 using _Assets.DataChooser.Scripts.DataChooser.Data.Services.Selection;
 using _Assets.DataChooser.Scripts.DataChooser.UI.DataChooser;
 using _Assets.DataChooser.Scripts.DataChooser.UI.Factory;
@@ -7,7 +7,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace _Assets.DataChooser.Demos.CharacterDemo.Scripts.UI.ChooseWindow
+namespace _Assets.DataChooser.Demos.Scripts.UI.ChooseWindow
 {
     public class ChooseWindow : MonoBehaviour
     {

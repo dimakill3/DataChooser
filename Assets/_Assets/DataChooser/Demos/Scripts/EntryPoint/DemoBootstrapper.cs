@@ -1,10 +1,9 @@
-﻿using System;
-using _Assets.DataChooser.Demos.CharacterDemo.Scripts.Data;
+﻿using _Assets.DataChooser.Demos.CharacterDemo.Scripts.Data;
 using _Assets.DataChooser.Demos.CharacterDemo.Scripts.Services;
-using _Assets.DataChooser.Demos.CharacterDemo.Scripts.UI.Factory;
 using _Assets.DataChooser.Demos.Scripts.Assets;
 using _Assets.DataChooser.Demos.Scripts.Enums;
 using _Assets.DataChooser.Demos.Scripts.Services;
+using _Assets.DataChooser.Demos.Scripts.UI.Factory;
 using _Assets.DataChooser.Scripts.DataChooser.Data.Services.Selection;
 using _Assets.DataChooser.Scripts.DataChooser.Data.Services.Storage;
 using _Assets.DataChooser.Scripts.DataChooser.InputLogic;
@@ -14,7 +13,7 @@ using _Assets.DataChooser.Scripts.DataChooser.Services.AssetManagement;
 using _Assets.DataChooser.Scripts.DataChooser.UI.Factory;
 using UnityEngine;
 
-namespace _Assets.DataChooser.Demos.CharacterDemo.Scripts.EntryPoint
+namespace _Assets.DataChooser.Demos.Scripts.EntryPoint
 {
     public class DemoBootstrapper : MonoBehaviour
     {
