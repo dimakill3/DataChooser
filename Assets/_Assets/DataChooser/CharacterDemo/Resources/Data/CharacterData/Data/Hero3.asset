@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fffea049afa048d899dbaae23b7c0769, type: 3}
+  m_Name: Hero3
+  m_EditorClassIdentifier: 
+  _id: Character_Ruben
+  Name: Ruben
+  Level: 3
+  Avatar: {fileID: 21300000, guid: 6803fd62fbff82448893550912aca4c0, type: 3}
+  Character3DView: {fileID: 905229439659224616, guid: 40dcf7c01fa785247add660380c155fb, type: 3}
