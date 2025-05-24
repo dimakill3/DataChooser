@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using _Assets.DataChooser.Scripts.DataChooser.Data;
-using _Assets.DataChooser.Scripts.DataChooser.Services;
+using _Assets.DataChooser.Scripts.DataChooser.Services.AssetManagement;
 using _Assets.DataChooser.Scripts.DataChooser.UI.DataChooser;
 using UnityEngine;
 using Object = UnityEngine.Object;

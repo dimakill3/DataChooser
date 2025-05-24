@@ -2,5 +2,6 @@
 {
     public interface IData
     {
+        string Id { get; }
     }
 }
