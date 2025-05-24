@@ -34,7 +34,8 @@ namespace _Assets.DataChooser.Scripts.DataChooser.Data.Services.Storage
         public T GetNext<T>(T current) where T : ScriptableObject, IData
         {
             var items = GetAll<T>();
-            if (items.Count == 0) return null;
+            if (items.Count == 0)
+                return null;
             var idx = items .Select((value, index) => (value, index))
                 .FirstOrDefault(pair => EqualityComparer<T>.Default.Equals(pair.value, current))
                 .index;
@@ -45,7 +46,8 @@ namespace _Assets.DataChooser.Scripts.DataChooser.Data.Services.Storage
         public T GetPrevious<T>(T current) where T : ScriptableObject, IData
         {
             var items = GetAll<T>();
-            if (items.Count == 0) return null;
+            if (items.Count == 0)
+                return null;
             var idx = items.Select((value, index) => (value, index))
                 .FirstOrDefault(pair => EqualityComparer<T>.Default.Equals(pair.value, current))
                 .index;
